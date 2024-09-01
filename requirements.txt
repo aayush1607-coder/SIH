@@ -1,8 +1,0 @@
-streamlit==1.28.1
-opencv-python==4.8.0
-numPy==1.25.2
-pickle
-scikit-learn==1.3.0
-tensorFlow==2.13.0
-pip-upgrader
-Pillow
