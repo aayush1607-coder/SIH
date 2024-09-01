@@ -6,3 +6,4 @@ tensorFlow
 pip-upgrader
 Pillow
 pickle
+joblib
