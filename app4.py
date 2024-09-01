@@ -3,10 +3,11 @@ import pickle
 from PIL import Image
 import numpy as np
 import io
+import joblib
 
 # Load the trained model
 with open('cnn_disease.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = joblib.load(file)
 
 # Function to preprocess the image and make predictions
 def preprocess_image(image):
