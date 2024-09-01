@@ -5,7 +5,7 @@ import numpy as np
 import io
 
 # Load the trained model
-with open('model.pkl', 'rb') as file:
+with open('cnn_disease.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Function to preprocess the image and make predictions
